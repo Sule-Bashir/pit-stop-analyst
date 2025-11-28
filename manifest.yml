@@ -1,0 +1,18 @@
+modules:
+  jira:globalPage:
+    - key: pit-stop-hello
+      resource: main
+      resolver:
+        function: resolver
+      title: Pit Stop Analyst
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/hello-world.js
+app:
+  id: ari:cloud:ecosystem::app/your-app-id
+permissions:
+  scopes:
+    - 'read:jira-work'
