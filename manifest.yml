@@ -1,18 +1,18 @@
 modules:
   jira:globalPage:
-    - key: pit-stop-hello
+    - key: pit-stop-analyst
       resource: main
-      resolver:
-        function: resolver
-      title: Pit Stop Analyst
-  function:
-    - key: resolver
-      handler: index.handler
-resources:
-  - key: main
-    path: src/frontend/hello-world.js
+      title: Pit Stop Analysis
+
 app:
-  id: ari:cloud:ecosystem::app/your-app-id
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/32f2d7e6-f812-4af9-aae9-b854c33a6d63
+
 permissions:
   scopes:
     - 'read:jira-work'
+
+resources:
+  - key: main
+    path: src/frontend
