@@ -1,9 +1,8 @@
 {
   "name": "pit-stop-analyst",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/frontend/index.jsx",
   "dependencies": {
-    "@forge/api": "^2.8.0",
-    "@forge/ui": "^1.7.0"
+    "@forge/ui": "1.9.1"
   }
 }
