@@ -43,24 +43,23 @@ Built for the **Atlassian Williams Racing Edition**, our app embodies the speed,
 
 ### Architecture
 Pit Stop Analyst
-├── Frontend (UI Kit)
+├── Frontend (HTML/CSS/JS)
 │ ├── Team Dashboard
 │ ├── AI Analysis Panel
 │ └── Recommendations Engine
-├── Backend (Forge Functions)
-│ ├── Data Processing
-│ ├── AI Integration
-│ └── Jira API Connector
-└── Integration Layer
-├── Jira Cloud
-├── Rovo AI Ecosystem
-└── Atlassian Forge Platform
+├── Integration Layer
+│ ├── Jira Cloud
+│ ├── Rovo AI Ecosystem
+│ └── Atlassian Forge Platform
+└── Deployment
+├── Forge Cloud
+└── Production Environment
 
 ### Technology Stack
 - **Platform**: Atlassian Forge
-- **Frontend**: React, UI Kit Components
+- **Frontend**: HTML5, CSS3, JavaScript
 - **Integration**: Jira REST API
-- **AI**: Rovo Agent Integration
+- **AI**: Rovo Agent Integration Concept
 - **Deployment**: Forge Cloud
 
 ## 🚀 Getting Started
@@ -71,16 +70,10 @@ The app is live and ready to test:
 2. **Login** with Atlassian credentials
 3. **Navigate** to "Pit Stop Analysis" in the apps menu
 4. **Experience** the full dashboard immediately
-   App link 🔗 on th Atlassian Developer platform: https://developer.atlassian.com/console/install/32f2d7e6-f812-4af9-aae9-b854c33a6d63?signature=AYABeDtnYfey0GnkWMYSq93XynwAAAADAAdhd3Mta21zAEthcm46YXdzOmttczp1cy13ZXN0LTI6NzA5NTg3ODM1MjQzOmtleS83MDVlZDY3MC1mNTdjLTQxYjUtOWY5Yi1lM2YyZGNjMTQ2ZTcAuAECAQB4IOp8r3eKNYw8z2v%2FEq3%2FfvrZguoGsXpNSaDveR%2FF%2Fo0BUDqJ9PBK1nlZQ6q%2BOIeH3AAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDNy%2BFrTpLMYICj2g%2BQIBEIA7tU148m6s5aTjoK%2F6nWRCzr5ZErwGciMtY8NZZ%2BNWW0nGkKcWsz0eZbCejjTVpEN%2F8kYlnWij%2FL0ekusAB2F3cy1rbXMAS2Fybjphd3M6a21zOmV1LXdlc3QtMTo3MDk1ODc4MzUyNDM6a2V5LzQ2MzBjZTZiLTAwYzMtNGRlMi04NzdiLTYyN2UyMDYwZTVjYwC4AQICAHijmwVTMt6Oj3F%2B0%2B0cVrojrS8yZ9ktpdfDxqPMSIkvHAGy1kUp%2BchZRayqkrxa2abfAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdgbYIj1%2FA2xvFInpAgEQgDuYABSetwGHVY8mGyHqcv%2FLD4YT2SPk2QaIm9bRcsnv8JtAevj7HTkoo%2B0Eb%2FCHW7bitWHQSdiUVrqYawAHYXdzLWttcwBLYXJuOmF3czprbXM6dXMtZWFzdC0xOjcwOTU4NzgzNTI0MzprZXkvNmMxMjBiYTAtNGNkNS00OTg1LWI4MmUtNDBhMDQ5NTJjYzU3ALgBAgIAeLKa7Dfn9BgbXaQmJGrkKztjV4vrreTkqr7wGwhqIYs5Af5pW9cTtlr%2FUlqL6719TAsAAAB%2BMHwGCSqGSIb3DQEHBqBvMG0CAQAwaAYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyH3e68V0ctdED4NgECARCAO8V%2FjnHdMavgLNqtBTxRp1llJdMEQ3Zv%2B4qS%2FcVFJV4zMdrUNXCBO4MweVRUERo%2BHmveItBBLpupak6wAgAAAAAMAAAQAAAAAAAAAAAAAAAAAJyognfBtoedQbP7eyi6FcP%2F%2F%2F%2F%2FAAAAAQAAAAAAAAAAAAAAAQAAADKZOnBcXYi0z2wrFyjyzcT2dFZbHqTVtv6FFCrqP%2F35wa94U1qYOAx4%2B94ilaI3sfzSywtyvmn8Tpqg5tm1AWOzjZ8%3D&product=jira
-
 ### For Developers
 ```bash
-# Clone and explore
-git clone [repository-url]
-cd pit-stop-analyst
-
 # View project structure
 src/
-├── frontend/          # UI components
+├── frontend/          # UI components (HTML/CSS/JS)
 ├── manifest.yml       # Forge configuration
 └── package.json       # Dependencies
